@@ -3,7 +3,7 @@ if game.CoreGui:FindFirstChild("DarkHubLib") then
 end
 game:GetService("UserInputService").InputBegan:connect(
     function(key, gpe)
-        if key.KeyCode == Enum.KeyCode.17 then
+        if key.KeyCode == Enum.KeyCode.RightControl then
             pcall(
                 function()
                     for i, v in pairs(game.CoreGui.DarkHubLib:GetChildren()) do
