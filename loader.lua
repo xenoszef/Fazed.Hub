@@ -20,7 +20,22 @@ local NSSTab = Window:MakeTab({
 NSSTab:AddButton({
 	Name = "Load Script",
 	Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Swireqs/DX-NSS/main/main.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/xenoszef/DX-NSS/main/main.lua"))()
+  	end    
+})
+
+--BLADE BALL Tab--
+
+local BLADEBALLTab = Window:MakeTab({
+	Name = "Blade Ball",
+	Icon = "rbxassetid://14758574258",
+	PremiumOnly = false
+})
+
+BLADEBALLTab:AddButton({
+	Name = "Load Script",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/xenoszef/DX-BLADEBALL/main/main.lua"))()
   	end    
 })
 
