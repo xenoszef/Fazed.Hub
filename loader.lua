@@ -35,7 +35,7 @@ local BLADEBALLTab = Window:MakeTab({
 BLADEBALLTab:AddButton({
 	Name = "Load Script",
 	Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/xenoszef/DX-BLADEBALL/main/main.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/xenoszef/Fazed.BLADEBALL/main/main.lua"))()
   	end    
 })
 
