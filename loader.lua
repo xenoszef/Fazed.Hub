@@ -20,7 +20,7 @@ local NSSTab = Window:MakeTab({
 NSSTab:AddButton({
 	Name = "Load Script",
 	Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/xenoszef/DX-NSS/main/main.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/xenoszef/Fazed.NSS/main/main.lua"))()
   	end    
 })
 
