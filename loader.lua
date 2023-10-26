@@ -20,7 +20,7 @@ local NSSTab = Window:MakeTab({
 NSSTab:AddButton({
 	Name = "Load Script",
 	Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/xenoszef/Fazed.NSS/main/main.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/xenoszef/Fazed.NSS/main/handler.lua"))()
   	end    
 })
 
@@ -35,7 +35,7 @@ local BLADEBALLTab = Window:MakeTab({
 BLADEBALLTab:AddButton({
 	Name = "Load Script",
 	Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/xenoszef/Fazed.BLADEBALL/main/main.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/xenoszef/Fazed.BLADEBALL/main/handler.lua"))()
   	end    
 })
 
