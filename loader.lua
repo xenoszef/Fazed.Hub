@@ -39,6 +39,21 @@ BLADEBALLTab:AddButton({
   	end    
 })
 
+--BIG PAINTBALL 2 Tab--
+
+local BIGPAINTBALL2Tab = Window:MakeTab({
+	Name = "Big Paintball 2",
+	Icon = "rbxassetid://14758574258",
+	PremiumOnly = false
+})
+
+BIGPAINTBALL2Tab:AddButton({
+	Name = "Load Script",
+	Callback = function()
+        loadstring(game:HttpGet("soon"))()
+  	end    
+})
+
 --UI Tab--
 
 local UITab = Window:MakeTab({
