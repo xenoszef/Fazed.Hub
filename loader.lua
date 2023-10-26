@@ -7,7 +7,7 @@ OrionLib:MakeNotification({
 })
 
 
-local Window = OrionLib:MakeWindow({Name = "Fazed Hub", HidePremium = true, SaveConfig = false, ConfigFolder = "Fazed Hub"})
+local Window = OrionLib:MakeWindow({Name = "Fazed Hub", HidePremium = true, SaveConfig = false, ConfigFolder = "Fazed"})
 
 --NSS Tab--
 
